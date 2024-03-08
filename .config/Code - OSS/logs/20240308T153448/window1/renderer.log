@@ -1,0 +1,15 @@
+2024-03-08 15:34:52.449 [info] Started local extension host with pid 24675.
+2024-03-08 15:34:52.592 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-03-08 15:34:55.390 [info] [perf] Render performance baseline is 56ms
+2024-03-08 15:34:55.538 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 15:34:55.539 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 15:34:55.539 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 15:34:55.540 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 15:34:55.540 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 15:34:55.542 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 15:34:55.543 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 15:34:55.544 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 15:34:55.544 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 15:34:55.544 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 15:34:55.545 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 15:34:55.546 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.

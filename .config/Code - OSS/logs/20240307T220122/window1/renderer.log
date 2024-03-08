@@ -1,0 +1,39 @@
+2024-03-07 22:01:27.296 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/issam/C_codes/calculator.c","scheme":"file"},"type":1,"exists":false}],"filesToDiff":[],"filesToMerge":[]}
+2024-03-07 22:01:27.858 [info] Started local extension host with pid 71527.
+2024-03-07 22:01:31.833 [info] [perf] Render performance baseline is 134ms
+2024-03-07 22:03:47.844 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 22:03:47.845 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 22:03:47.846 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 22:03:47.846 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 22:03:47.847 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 22:03:47.847 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 22:03:47.847 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 22:03:47.848 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 22:03:47.848 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 22:03:47.848 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 22:03:47.850 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 22:03:47.850 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 22:03:47.886 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-03-07 22:06:01.418 [error] [ExtensionListenerError] Extension 'cschlosser.doxdocgen' FAILED to handle event: Error: Illegal value for `line`: Error: [ExtensionListenerError] Extension 'cschlosser.doxdocgen' FAILED to handle event: Error: Illegal value for `line`
+	at w.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:19760)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+	at C.$acceptModelChanged (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:150:78950)
+	at s.S (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:147:5519)
+	at s.Q (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:147:5285)
+	at s.M (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:147:4375)
+	at s.L (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:147:3454)
+	at w.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:147:2241)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:14091)
+	at w.value (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:8050)
+	at n.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at r.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:105:14091)
+	at MessagePortMain.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:173:6330)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2285)
+2024-03-07 22:06:12.927 [error] [Extension Host] (node:71527) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

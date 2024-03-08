@@ -1,0 +1,15 @@
+2024-03-07 23:49:02.584 [info] Started local extension host with pid 123156.
+2024-03-07 23:49:03.169 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 23:49:03.169 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 23:49:03.170 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 23:49:03.170 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 23:49:03.171 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 23:49:03.171 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 23:49:03.171 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 23:49:03.185 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 23:49:03.185 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 23:49:03.185 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 23:49:03.186 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 23:49:03.186 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-07 23:49:03.347 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-03-07 23:49:07.492 [info] [perf] Render performance baseline is 104ms

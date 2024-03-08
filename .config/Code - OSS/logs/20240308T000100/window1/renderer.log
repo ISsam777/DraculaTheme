@@ -1,0 +1,15 @@
+2024-03-08 00:01:03.612 [info] Started local extension host with pid 135514.
+2024-03-08 00:01:03.746 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-03-08 00:01:07.477 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 00:01:07.477 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 00:01:07.478 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 00:01:07.478 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 00:01:07.479 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 00:01:07.479 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 00:01:07.480 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 00:01:07.480 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 00:01:07.480 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 00:01:07.481 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 00:01:07.481 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 00:01:07.482 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarLength.description.
+2024-03-08 00:01:07.576 [info] [perf] Render performance baseline is 184ms

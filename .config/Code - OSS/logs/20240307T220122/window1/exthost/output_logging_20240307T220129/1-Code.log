@@ -1,0 +1,16 @@
+[Running] cd "/home/issam/C_codes/" && gcc calculator.c -o calculator && "/home/issam/C_codes/"calculator
+
+[Done] exited with code=null in 14.73 seconds
+
+[Running] cd "/home/issam/C_codes/" && gcc calculator.c -o calculator && "/home/issam/C_codes/"calculator
+
+[Done] exited with code=null in 76.461 seconds
+
+[Running] cd "/home/issam/C_codes/" && gcc calculator.c -o calculator && "/home/issam/C_codes/"calculator
+
+[Done] exited with code=null in 30.882 seconds
+
+[Running] cd "/home/issam/C_codes/" && gcc calculator.c -o calculator && "/home/issam/C_codes/"calculator
+
+[Done] exited with code=null in 27.272 seconds
+
