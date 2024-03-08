@@ -7,10 +7,10 @@ configuration{
     location: 0;
     disable-history: false;
     hide-scrollbar: true;
-    display-drun: "  Apps ";
-    display-run: " 🚀  Run ";
-    display-window: "Window";
-    display-Network: "network";
+    display-drun: " Apps ";
+    display-run: "   Run ";
+    display-window: " Window";
+    display-Network: " network";
     sidebar-mode: true;
 }
 
