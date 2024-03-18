@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango: Cascadia Code 11
+font pango: Cascadia Code 0
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -208,52 +208,39 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command SCRIPT_DIR=~/.config/i3blocks/scripts i3blocks -c ~/.config/i3blocks/config
+       font pango:Cascadia Code 11
+   	height 25
 	position top
-	tray_padding 4 
-	separator_symbol "|"
+	status_command i3status
+    tray_padding 1
+      
+    strip_workspace_numbers yes
 
-	font pango:Cascadia Code Regular 11
-	colors {
-        	background $bg 
-        	statusline $fg
-        	separator #fadbb9 
+    colors {
+            separator  #1f222d
+            background #1f222d
+            statusline #81a1c1
 
-        	###		           border	bg  	   	text
-		focused_workspace  $purple	$purple		$bg
-        	inactive_workspace $bg1		$bg1		#BFBFBF
-        	urgent_workspace   $red		$red		$bg
-        	}
+            #                   border  background text
+            focused_workspace  #1f222d #1f222d    #81a1c1
+            active_workspace   #1f222d #252936    #5e81ac
+            inactive_workspace #1f222d #1f222d    #4c566a
+            urgent_workspace   #1f222d #1f222d    #ee829f
+            binding_mode       #1f222d #81a1c1    #2e3440
+    }
+
 }
-############## DRACULA ############
-set $bg			#282a36
-set $bg1		#44475a
-set $bg2		#6272a4
-set $fg			#f8f8f2		
-set $cyan		#8be9d
-set $green		#50fa7b    
-set $orange		#ffb86c		
-set $pink		#ff79c6
-set $purple		#bd93f9
-set $red		#ff5555
-set $yellow		#f1fa8c
-set $gray       	#b8b8b4
+    ##START THEMING WM
 
-###grayish-fg			#c7c7c3 ###
-###grayish-fg-alt       #BFBFBF ###
-###greenish-bat 		#97fa50 ###
-###separator-orange		#fadbb9 ###
-###vim		        #323542
+    # Window color settings
+    # class                 border  backgr. text    indicator
+    client.focused          #81a1c1 #81a1c1 #ffffff #81a1c1
+    client.unfocused        #2e3440 #1f222d #888888 #1f222d
+    client.focused_inactive #2e3440 #1f222d #888888 #1f222d
+    client.placeholder      #2e3440 #1f222d #888888 #1f222d
+    client.urgent           #900000 #900000 #ffffff #900000
 
-#kanagawa
-# class                 border  backgr. text    indicator child_border
-client.focused          $purple   $purple   #1a1826 #76946A   $purple
-client.focused_inactive #ebdbb2 #5f676a $pink   #ebdbb2   #ebdbb2
-client.unfocused        #252535 #252535 $pink   #252535   #252535
-client.urgent           #cc241d #900000 #ffffff #cc241d   #cc241d
-client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
-
-client.background       #ffffff
+    client.background       #242424
 
 #############rules#############
 for_window [class="^.*"] border pixel 3
@@ -269,7 +256,6 @@ for_window [class="vol|ttrm|mus|fm|news"] floating enable, resize set 1000 600, 
 ########################AUTOSTART#################################
 exec_always xrandr -s 1920x1080
 exec_always picom -f
-exec_always tmux
 exec nitrogen --restore
-bindsym $mod+F11 exec amixer -D pulse sset Master 1%- && pkill -RTMIN+1 i3blocks
-bindsym $mod+F12 exec amixer -D pulse sset Master 1%+ && pkill -RTMIN+1 i3blocks
+bindsym $mod+F11 exec amixer -D pulse sset Master 1%- && pkill -RTMIN+1 i3status
+bindsym $mod+F12 exec amixer -D pulse sset Master 1%+ && pkill -RTMIN+1 i3status
