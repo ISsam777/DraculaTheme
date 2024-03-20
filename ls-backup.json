@@ -1,0 +1,150 @@
+{
+  "yags-general": {
+    "img": "https://github.com/linuxdotexe/nordic-wallpapers/blob/master/wallpapers/ign_vader.png?raw=true",
+    "title": "Yet another generic startpage",
+    "displayImg": true,
+    "font": "Jura",
+    "enableFonts": true,
+    "fontSize": 1
+  },
+  "yags-search": {
+    "placeholder": "Search the web",
+    "engine": "google",
+    "forwardingLookup": {
+      "/": "/",
+      "deepl": "https://deepl.com/",
+      "reddit": "https://reddit.com/",
+      "maps": "https://maps.google.com/"
+    }
+  },
+  "yags-theme": {
+    "inverted": false,
+    "color": {
+      "name": "custom",
+      "bg": {
+        "shade": "#252A33",
+        "base": "#2E3440",
+        "surface": "#373E4D",
+        "highlight": "#40495A"
+      },
+      "fg": {
+        "shade": "#768CB2",
+        "base": "#A6B4CD",
+        "surface": "#D6DCE8",
+        "highlight": "#FFFFFF"
+      },
+      "primary": {
+        "bg": "#35506C",
+        "base": "#81A1C1",
+        "fg": "#EDF2F6"
+      },
+      "secondary": {
+        "bg": "#662A2F",
+        "base": "#BF616A",
+        "fg": "#E9C7CB"
+      },
+      "palette": {
+        "red": "#E06C75",
+        "green": "#98C379",
+        "yellow": "#E5C07B",
+        "blue": "#61AFEF",
+        "purple": "#C678DD",
+        "cyan": "#56B6C2",
+        "orange": "#FFBB7C"
+      }
+    },
+    "space": {
+      "smallest": "0.125rem",
+      "small": "0.5rem",
+      "medium": "1rem",
+      "large": "1.5rem",
+      "largest": "3rem"
+    }
+  },
+  "yags-surface": {
+    "shadow": {
+      "amount": 4,
+      "blur": 0,
+      "offset": 6,
+      "shadow": "6px 6px 0px rgb(53, 80, 108), 12px 12px 0px rgb(69.33333333333333, 67.33333333333333, 87.66666666666667), 18px 18px 0px rgb(85.66666666666666, 54.66666666666667, 67.33333333333334), 24px 24px 0px rgb(102, 42, 47)"
+    },
+    "borderRadius": 0,
+    "maxWidth": 1200
+  },
+  "yags-bookmarks": [
+    {
+      "id": "zVvXAsn35h4f4Ss5",
+      "label": "~/reddit",
+      "bookmarks": [
+        {
+          "id": "6f9uRcdxNMjAcagM",
+          "label": "r/startpages",
+          "url": "https://www.reddit.com/r/startpages/"
+        },
+        {
+          "id": "nS6Va7VdoyPAe7R8",
+          "label": "r/typescript",
+          "url": "https://www.reddit.com/r/typescript/"
+        },
+        {
+          "id": "RYLTe2F2zTQ4L6Dn",
+          "label": "r/reactjs",
+          "url": "https://www.reddit.com/r/reactjs/"
+        }
+      ]
+    },
+    {
+      "id": "iruocZrmDg1i36lK",
+      "label": "~/Developer",
+      "bookmarks": [
+        {
+          "id": "vX14xtYANBk269Fd",
+          "label": "github",
+          "url": "https://github.com/"
+        },
+        {
+          "id": "QBitGOPTVmksNWV9",
+          "label": "Elzero",
+          "url": "https://elzero.org/"
+        },
+        {
+          "id": "OmEcSxohmfonZ1fE",
+          "label": "FreeCodeCamp",
+          "url": "https://www.freecodecamp.org/"
+        }
+      ]
+    },
+    {
+      "id": "bcFajGTaaR6JdenA",
+      "label": "~/Study",
+      "bookmarks": [
+        {
+          "id": "tMv6Ceag7kzGSEJy",
+          "label": "GeekForGeeks",
+          "url": "https://www.geeksforgeeks.org/"
+        },
+        {
+          "id": "b4XLJ6nZU5oHtNsk",
+          "label": "New bookmark",
+          "url": ""
+        },
+        {
+          "id": "56y59MJFjJ6nabcp",
+          "label": "New bookmark",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "kH7VyTY8isjnBBNK",
+      "label": "~/Resource",
+      "bookmarks": [
+        {
+          "id": "Dilvr8R97dFmKiMc",
+          "label": "Tafsir",
+          "url": "https://quran.com/en/al-fatihah/1/tafsirs"
+        }
+      ]
+    }
+  ]
+}
